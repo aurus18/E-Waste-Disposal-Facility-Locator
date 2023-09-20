@@ -1,0 +1,35 @@
+html,body,#map {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 500px;
+  top: 600px;
+  left: 200px;
+  margin-bottom: 20px;
+}
+
+#locationInput {
+  border: 5px solid rgb(0, 238, 255);
+  height: 30px;
+  width: 500px;
+  border-style: ridge;
+  border-radius: 8px;
+}
+
+#button-design {
+  background-color: rgb(0, 187, 187);
+  text-align: center;
+  border: 5px solid rgb(0, 0, 0);
+  height: 35px;
+  width: 150px;
+  border-style: inherit;
+  border-radius: 8px;
+}
+
+#heading-two {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  height: 1200px;
+}
