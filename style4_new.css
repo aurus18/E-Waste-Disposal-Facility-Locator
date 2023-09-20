@@ -186,7 +186,7 @@ body {
 
   #locationInput {
     margin-bottom: 10px;
-    width: 350px;
+    width: 250px;
   }
 
   #button-design{
@@ -204,7 +204,7 @@ body {
     height: 70px;
   }
   .nav h2 {
-    margin-left: 40px;
+    margin-left: 45px;
     font-size: 30px;
   }
   .nav h4 {
