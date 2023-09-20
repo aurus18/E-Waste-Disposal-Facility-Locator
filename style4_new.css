@@ -178,11 +178,33 @@ body {
 }
 
 @media (max-width: 600px) {
+  
+  #input-parameters {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #locationInput {
+    margin-bottom: 10px;
+    width: 350px;
+  }
+
+  #button-design{
+    height:auto;
+    margin-top: 60px;
+    display: block;
+  }
+
+  #logo {
+    left: 20px;
+  }
+
   .nav {
     padding: 0 8vw;
     height: 70px;
   }
   .nav h2 {
+    margin-left: 40px;
     font-size: 30px;
   }
   .nav h4 {
