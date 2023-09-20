@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="./style4_new.css" />
+    <script src="https://apis.mappls.com/advancedmaps/api/a8f400f8742c93b5417c05f5b6b2c897/map_sdk?layer=vector&v=3.0&callback=initMap1" defer async> </script>
+    <script src="https://apis.mappls.com/advancedmaps/api/a8f400f8742c93b5417c05f5b6b2c897/map_sdk?layer=vector&v=3.0&callback=initMap1" defer async></script>
+    <script src="./script4_new.js"></script>
+  </head>
+  <body>
+    <!-- Your content goes here -->
+    <div class="main">
+      <div class="nav">
+        <h2><span><img id ="logo" src="./logo_1-removebg-preview.png" alt=""></span>E-WasteNest</h2>
+        <div class="nav-part2">
+          <a href="#"><h4>What's new</h4></a>
+          <a href="#"><h4>Contact</h4></a>
+          <a href="#"><h4>About us</h4></a>
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <div class="content">
+        <div class="left">
+          <h1>Locate, <span>Recycle</span>, Repeat: Find E-Waste Centers</h1>
+          <p class="p1">
+            Think of us as your E-waste GPS. We'll guide you to the nearest
+            facilities for responsible electronic waste disposal.
+          </p>
+          <p class="p2">
+            The search bar allows users to input their location, and upon
+            searching, it provides a list or map of nearby E-waste facilities.
+            This feature helps users easily locate and access E-waste recycling
+            centers in their vicinity, promoting responsible electronic waste
+            disposal and contributing to a cleaner environment.
+          </p>
+          <div id="map">
+            <input type="text" id="locationInput" placeholder="Enter location (e.g., 'kolkata') or type of e-waste (eg., battery,laptop,etc)">
+            <button id = "button-design" onclick="displayMarkers()">search</button>
+            <br>
+            <br> 
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+      <div class="map-container">
+        <div id="map"></div>
+  </body>
+</html>
