@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit !important;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /*background-color: aliceblue;*/
+}
+
+#locationInput {
+  border: 5px solid rgb(0, 238, 255);
+  height: 50px;
+  width: 600px;
+  border-style: ridge;
+  border-radius: 15px;
+  margin-right: 20px;
+  font-size: medium;
+  padding-left: 1%;
+}
+
+#button-design {
+  position: absolute;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  border: 5px solid rgb(0, 0, 0);
+  height: 50px;
+  width: 150px;
+  border: 2px solid rgb(0, 238, 255);
+  border-style: ridge;
+  border-radius: 15px;
+  padding: 0%;
+  margin: 0%;
+}
+
+#button-design:hover {
+  background-color: rgb(0, 238, 255);
+}
+
+#map {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 410px;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  width: 120px;
+}
+
+.container {
+  margin-left: 7.5%;
+  /* padding: 0%; */
+  left: 0%;
+}
+
+#navbarSupportedContent {
+  margin-right: 0%;
+  right: 0%;
+  margin-left: 74%;
+}
+
+#logo {
+  position: absolute;
+  left: 5%;
+  width: 40px;
+  height: 40px;
+  top: 25%;
+}
+
+.navigation {
+  padding: 0vw 8vw;
+}
+
+.content {
+  font-family: outfit;
+  margin-top: 15vh;
+  height: 63%;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.left {
+  height: 100%;
+  width: 100%;
+  padding: 2vw 8vw;
+}
+.left h1 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 4vw;
+  line-height: 4.4vw;
+}
+.left h1 span {
+  color: seagreen;
+}
+.left .p1 {
+  color: #666;
+  font-family: Outfit;
+  font-size: 1.23vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  letter-spacing: 0.3px;
+}
+.left .p2 {
+  color: #666;
+  font-family: Outfit;
+  font-size: 1.23vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 2.5vw;
+  letter-spacing: 0.3px;
+}
+.left .p3 {
+  color: #666;
+  font-family: Outfit;
+  font-size: 1.23vw;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 2.5vw;
+}
+.content1 {
+  font-family: outfit;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.left1 {
+  height: 100%;
+  width: 50%;
+  padding: 1vw 8vw;
+}
+.right1 {
+  height: 100%;
+  width: 50%;
+  padding: 3vw 8vw;
+}
+.left1 h1 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 3vw;
+  line-height: 3.7vw;
+  margin-bottom: 2.5vw;
+}
+.left1 .para {
+  color: #666;
+  font-family: Outfit;
+  font-size: 1.23vw;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 3vw;
+}
+.right1 .img1 {
+  margin-bottom: 3.5vw;
+}
+.left1 .img2 {
+  margin-bottom: 3.5vw;
+}
+.left1 ul,
+.left1 h6 {
+  font-size: 1.4vw;
+}
+.left1 span {
+  font-weight: 900;
+  font-size: 6.2vw;
+  color: #407bff;
+  padding-left: 2vw;
+  letter-spacing: 0.3px;
+}
+.right1 h1 {
+  color: #000;
+  font-family: Outfit;
+  font-size: 3vw;
+  line-height: 3.7vw;
+  margin-bottom: 2.5vw;
+}
+.right1 .para {
+  color: #666;
+  font-family: Outfit;
+  font-size: 1.23vw;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 2.5vw;
+}
+.right1 ul,
+.right1 h6 {
+  font-size: 1.4vw;
+}
+.location {
+  display: inline-block;
+}
+.map-container {
+  width: 100%;
+  height: 1400px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center; */
+  padding: 0vw 8vw;
+}
+#map {
+  position: relative;
+  margin-top: 12%;
+  width: 90%;
+  height: 700px;
+  /*max-width: 800px;*/
+}
+@media (max-width: 600px) {
+
+    #input-parameters {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      #locationInput {
+        margin-bottom: 10px;
+        width: 250px;
+        padding-left: 1%;
+      }
+    
+      #button-design{
+        height:auto;
+        margin-top: 60px;
+        display: block;
+      }
+    
+      #logo {
+        left: 20px;
+      }
+
+  .left h1 {
+    font-size: 7vw;
+    line-height: 8.2vw;
+  }
+  .left .p1 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+  }
+  .left .p2 {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+  .white-bar {
+    border-radius: 5px;
+  }
+  button {
+    font-size: 3.12vw;
+    padding: 1.1vw 0.9vw;
+    border-radius: 5px;
+  }
+  .content {
+    height: 42.2%;
+  }
+}
