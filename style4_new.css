@@ -153,6 +153,7 @@ html,body,#map {
   border-radius: 15px;
   margin-right: 20px;
   font-size: medium;
+  padding-left: 1%;
 }
 
 #button-design {
@@ -187,6 +188,7 @@ body {
   #locationInput {
     margin-bottom: 10px;
     width: 250px;
+    padding-left: 1%;
   }
 
   #button-design{
